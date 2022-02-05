@@ -218,8 +218,7 @@ footer {
 }
 
 /* Smartphones (portrait) */
-@media only screen 
-and (max-width : 450px) {
+@media screen and (max-width : 450px) {
 
 ul.game {
     margin: 0;
