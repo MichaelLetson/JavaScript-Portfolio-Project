@@ -28,3 +28,21 @@ function count() {
 $( "p.reset" ).click(function() {
          location.reload(true);
 });
+
+// change class of square after each click
+$(gameSquare).bind("click", function() {
+
+	count();
+	
+	if (x == 1) {
+        $(this).addClass("nought");
+		$(this).removeClass("blank");
+    } else if (x == 0) {
+		$(this).addClass("cross");
+		$(this).removeClass("blank");		
+		resetClick();
+	}
+
+	squareIDs.push(x + " " + $(this).attr("id"));
+
+	console.log(squareIDs);
