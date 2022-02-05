@@ -1,7 +1,23 @@
-header div {
-    color: #0083d3;
-    height: 2rem;
-    width: 100%;
+body {
+  font-family: 'Oswald', sans-serif; 
+}
+
+.welcome  {
+    background-color: #eee;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+
+.welcome p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: x-large;
+  padding: 1rem;
+  font-weight: bold;
+  color: #0083d3;
+
 }
 
 ul.list li {
@@ -20,10 +36,6 @@ ul.list li.selected {
   -moz-transition:    all 0.2s ease;
   -ms-transition:     all 0.2s ease;
   -o-transition:      all 0.2s ease;  
-}
-
-body {
-    font-family: 'Oswald', sans-serif; 
 }
 
 h1 {
