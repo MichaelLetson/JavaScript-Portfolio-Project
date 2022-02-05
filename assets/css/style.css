@@ -205,7 +205,19 @@ ul.game li.cross {
 }
 }
 
-/* Smartphones (portrait) ----------- */
+footer {
+  background-color: #eee;
+  position: fixed;
+  height: 5rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+;
+}
+
+/* Smartphones (portrait) */
 @media only screen 
 and (max-width : 450px) {
 
