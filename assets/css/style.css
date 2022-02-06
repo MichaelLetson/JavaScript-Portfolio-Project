@@ -68,6 +68,14 @@ span.cross {
   cursor: pointer;
 }
 
+.playerX {
+  color: #ce6200;
+}
+
+.playerO {
+  color: #0083d3;
+}
+
 footer {
   background-color: #eee;
   position: fixed;
