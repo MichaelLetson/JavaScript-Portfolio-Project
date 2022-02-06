@@ -1,3 +1,7 @@
+.background {
+  height: 100%;
+}
+
 .welcome  {
     background-color: #eee;
     height: auto;
@@ -105,10 +109,14 @@ span.cross {
 footer {
   background-color: #eee;
   position: fixed;
-  height: 5rem;
+  height: 3rem;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: left;
   padding: 1rem;
+}
+
+#page {
+  margin-bottom: 3rem;
 }
