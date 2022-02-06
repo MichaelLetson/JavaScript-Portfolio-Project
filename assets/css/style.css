@@ -119,6 +119,6 @@ footer {
 
 @media screen and (max-width: 450px) {
   .background {
-    height: 60rem;
+    height: 40rem;
   }
 }
