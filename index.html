@@ -15,20 +15,30 @@
             </p>
         </div>
     </header>
-    </header>
-    <h1><span class="nought">NOUGHTS</span> & <span class="cross">CROSSES</span></h1>
-    <ul class="game">
-        <li class="blank" id="a"></li>
-        <li class="blank" id="b"></li>
-        <li class="blank" id="c"></li>
-        <li class="blank" id="d"></li>
-        <li class="blank" id="e"></li>
-        <li class="blank" id="f"></li>
-        <li class="blank" id="g"></li>
-        <li class="blank" id="h"></li>
-        <li class="blank" id="i"></li>
-    </ul>
-<a href="index.html"></a>
+    </header> -->
+        <main class="background">
+        <section class="title">
+            <h1><span class="nought">NOUGHTS</span> & <span class="cross">CROSSES</span></h1>
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
 <footer>
     <div>
         Hope you enjoyed playing! :-)  
@@ -38,5 +48,4 @@
     </div>
 </footer>
 <script src="assets/js/script.js"></script>
-</body>
 </html>
