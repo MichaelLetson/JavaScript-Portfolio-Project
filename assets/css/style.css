@@ -76,6 +76,32 @@ span.cross {
   color: #0083d3;
 }
 
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.controls button {
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.restart {
+  background-color: white;
+}
+
+#reset {
+  background-color: grey;
+}
+
 footer {
   background-color: #eee;
   position: fixed;
