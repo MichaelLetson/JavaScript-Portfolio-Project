@@ -43,3 +43,14 @@ The HTML code bounced just one error which was a stray </header> element which w
 ## CSS Validator 
 
 CSS code passes through validator with no erros. Validated at https://jigsaw.w3.org/css-validator/ 
+
+## Lighthouse Report
+
+![image](https://user-images.githubusercontent.com/93741957/152871885-ac540112-7194-447a-896e-223a0062ac5f.png)
+
+## Deployment
+To deploy website, I followed the below steps on Github.
+
+- Go to 'Settings' in repository
+-- On 'Source' of 'GitHub Pages', select 'Main' for Branch and click save
+-- The website is now published on GitHub Pages and the link is provided on on the same section
