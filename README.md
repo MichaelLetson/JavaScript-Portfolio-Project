@@ -13,12 +13,12 @@ The webpage is for two people looking to play a simple game of Noughts and Cross
 
 ## User stories 
 
--To play a game of multi player noughts and crosses with ease. 
--Simply be able to use/nagivate the webpage. 
--To know who (player X or O) has won. 
+- To play a game of multi player noughts and crosses with ease. 
+- Simply be able to use/nagivate the webpage. 
+- To know who (player X or O) has won. 
 
 ## Fullfillment 
 
--Simple layout with message to state the game is multi-player.
--A layout free of clutter to not distract the user from it's simplicity.
--Only allow simple functions, of resetting the game. 
+- Simple layout with message to state the game is multi-player.
+- A layout free of clutter to not distract the user from it's simplicity.
+- Only allow simple functions, of resetting the game. 
