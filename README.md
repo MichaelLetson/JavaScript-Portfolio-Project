@@ -62,3 +62,7 @@ I created a respository and opened in gitpod to create my code. To move my code 
 - git commit -m "message"
 - git push
 - git pull --rebase
+
+## Final notes 
+
+During the beginnign of this project I was struggling with understanding my own code, I was searching and looking at resources to come up with the best solution, and part way through realised I had gotten too confused, and went in search for a more streamlined approach for my code, something easier to understand with simpler logic. After some reseacrh for inspiration I restarted my code part way through and feel I developer a much better webpage due to the change. 
