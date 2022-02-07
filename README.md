@@ -35,3 +35,11 @@ The webpage is for two people looking to play a simple game of Noughts and Cross
 - Used Chrome Dev Tool to test site, including when testing styling for media queries and also looking at JavaScript code to ensure efficiency and look for errors.
 - The game was stress tested manually.
 - Console logs were carried out to ensure the code was efficiently running (checked in dev tools).
+
+## HTML Validator 
+
+The HTML code bounced just one error which was a stray </header> element which was removed, the only result now is some warnings which can be overlooked as thsoe elements, should they not result with errors, are needed for CSS styling and JavaScript functionality. Validated at https://validator.w3.org/nu/ 
+
+## CSS Validator 
+
+CSS code passes through validator with no erros. Validated at https://jigsaw.w3.org/css-validator/ 
