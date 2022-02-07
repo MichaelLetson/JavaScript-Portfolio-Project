@@ -52,5 +52,13 @@ CSS code passes through validator with no erros. Validated at https://jigsaw.w3.
 To deploy website, I followed the below steps on Github.
 
 - Go to 'Settings' in repository
--- On 'Source' of 'GitHub Pages', select 'Main' for Branch and click save
--- The website is now published on GitHub Pages and the link is provided on on the same section
+- On 'Source' of 'GitHub Pages', select 'Main' for Branch and click save
+- The website is now published on GitHub Pages and the link is provided on on the same section
+
+## Using Git
+I created a respository and opened in gitpod to create my code. To move my code from gitpod to repository ready for deployment I followed these steps (which I did often to show a journey of creating my site):
+
+- git add .
+- git commit -m "message"
+- git push
+- git pull --rebase
