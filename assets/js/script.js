@@ -73,14 +73,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	const updateBoard =  (index) => {
         board[index] = currentPlayer;
-    }
+    };
 
 	const changePlayer = () => {
         playerDisplay.classList.remove(`player${currentPlayer}`);
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
         playerDisplay.innerText = currentPlayer;
         playerDisplay.classList.add(`player${currentPlayer}`);
-    }
+    };
 
 	const userAction = (tile, index) => {
         if(isValidAction(tile) && isGameActive) {
@@ -90,7 +90,7 @@ window.addEventListener('DOMContentLoaded', () => {
             handleResultValidation();
             changePlayer();
         }
-    }
+    };
 
 	const resetBoard = () => {
         board = ['', '', '', '', '', '', '', '', ''];
@@ -106,7 +106,7 @@ window.addEventListener('DOMContentLoaded', () => {
             tile.classList.remove('playerX');
             tile.classList.remove('playerO');
         });
-    } 
+    };
 
 	tiles.forEach( (tile, index) => {
         tile.addEventListener('click', () => userAction(tile, index));
