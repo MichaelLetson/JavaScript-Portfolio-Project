@@ -7,7 +7,7 @@
 
 The game can be play on either desktop, tablet or mobile screens. Visit the webpage here: https://michaelletson.github.io/JavaScript-Portfolio-Project/ 
 
-## Who is the website for and it's purpose?
+## Who is the website for and its purpose?
 
 The webpage is for two people looking to play a simple game of Noughts and Crosses. It is not a complicated game, therefore the webpage should be clutter free and enable the user to play with ease, and be able to play immediately. 
 
@@ -36,6 +36,11 @@ The webpage is for two people looking to play a simple game of Noughts and Cross
 - The game was stress tested manually.
 - Console logs were carried out to ensure the code was efficiently running (checked in dev tools).
 
+### User stories - Tests
+- To play a game of multi player noughts and crosses with ease -> Manually testing the front end deployment of the site to ensure the code works in creating a multi player function and that it is user friendly. 
+- Simply be able to use/nagivate the webpage -> Asked friends and family to try out the page, took feedback and made amendments where necessary. 
+- To know who (player X or O) has won -> Manually tested functionality of code that displays the winner message, and ensured efficiency. 
+
 ## HTML Validator 
 
 The HTML code bounced just one error which was a stray </header> element which was removed, the only result now is some warnings which can be overlooked as thsoe elements, should they not result with errors, are needed for CSS styling and JavaScript functionality. Validated at https://validator.w3.org/nu/ 
@@ -43,6 +48,10 @@ The HTML code bounced just one error which was a stray </header> element which w
 ## CSS Validator 
 
 CSS code passes through validator with no erros. Validated at https://jigsaw.w3.org/css-validator/ 
+
+## JavaScript Validator 
+
+JavaScript code checked and validated via https://jshint.com/
 
 ## Lighthouse Report
 
